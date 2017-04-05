@@ -1,0 +1,220 @@
+*{
+	margin:0;
+	padding:0;
+	}
+html, body{
+	height:100vh;
+	width:auto;
+	}
+
+.firstSection{
+	height:100vh;
+	width:100%;
+	background-image: url("coffee3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+.firstSectionUP{
+	height:100vh;
+	width:100%;
+	position: relative;
+	z-index: 500;
+	}
+
+.logo{
+	padding-top: 40px;
+	height:40px;
+	width:200px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	letter-spacing: -.9px;
+	font-family: 'Kaushan Script', cursive;
+	color:#E60620;
+	text-shadow: 1px 1px 4px black;
+	z-index: -1000;
+	box-sizing: border-box;
+	font-weight: lighter;
+	}
+
+nav{
+	width: 100%;
+	text-align: center;
+	}
+
+nav ul li{
+	font-family: 'Nova Oval', cursive;
+	line-height:10px;
+	display: block;
+	padding-top:40px;
+	padding-bottom: 20px;
+	text-align: left;
+	padding-left: 40px;
+	cursor: pointer;
+	color:white;
+	}
+
+nav ul li:hover{
+	color:#5F402B;
+	letter-spacing: 2px;
+	transition: 1.2s;
+	font-weight: bolder;
+	border-bottom: 1px solid white;
+	}
+
+nav ul{
+	margin-top: 45px;
+	}
+
+.slogan{
+	padding-top: 20px;
+	font-family: 'Nova Oval', cursive;
+	color:white;
+	text-align: justify;
+	padding-left: 40px;
+	}
+
+/*--first section--*/
+
+/*--second section--*/
+.secondSection{
+	height:50vh;
+	width:auto;
+	position: relative;
+	}
+
+.mission h1{
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color:rgba(0,0,0,.52);
+	line-height: 60px;
+	padding-top: 80px;
+	}
+.mission p{
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	font-size: 15px;
+	color:rgba(0,0,0,.55);
+	}
+#button{
+	border:1px solid white;
+	width:120px;
+	height: 60px;
+	padding: 14px;
+	position: absolute;
+	top:62%;
+	left:46%;
+	font-family: sans-serif;
+	color: white;
+	background-color:#27AE60;
+	cursor: pointer;
+	border-bottom-right-radius: 100%;
+	border-top-left-radius: 100%;
+	}
+
+#button:hover{
+	border-bottom-right-radius: 0%;
+	border-top-left-radius: 0%;	
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 20px;
+	transition: 1.2s;
+	}
+/*--second section--*/
+
+/*--third section--*/
+.thirdSection{
+	height:100vh;
+	width: auto;
+	}
+
+.subsOne{
+	height: 50vh;
+	width:auto;
+	margin:0;
+	vertical-align: top;
+	}
+.leftBlock{
+	height: 50vh;
+	width:50%;
+	background-color: #3F51B5;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	}
+.leftBlock:hover{
+	background-color: #1A237E;
+	transition: 2s;
+}
+
+#social{
+	height: 32vh;
+	width: 220px;
+	padding-top:45px;
+	padding-left: 150px;
+	cursor: pointer;
+	}
+
+.Block{
+	height: 50vh;
+	width:24.5%;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	}
+#mids{
+	background-color: #FFC107;
+	}
+
+#mids:hover{
+	background-color: #FF8F00;
+	transition: 2s;
+}
+
+#mids img{
+	height:40vh;
+	width:30%;
+	padding-top: 40px;
+	padding-left:200px;
+}
+
+#cartoonImg{
+	height:49.5vh;
+	width:328px;
+	padding:4px;
+	}
+
+.Block h1{
+	text-align: center;
+	font-size: 350%;
+	padding-top: 80px;
+	font-family: 'Noto Sans', sans-serif;
+	cursor: pointer;
+	}
+.Block h1:hover{
+	font-size: 355%;
+	color:green;
+	transition: 1s;
+	}
+
+.Block p{
+	line-height: 40px;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	}
+/*--third section--*/
+
+/*--footer section--*/
+.footer{
+	height:30vh;
+	background-color: #212121;
+	}
+.footer img{
+	width:100%;
+}
